@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="cart.css"/>
+        <link rel="stylesheet"href="kaiawesome/css/all.css"/>
+       
+    </head>
+    <body>
+        <div class="container">
+           
+                <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+                    <a class="navbar-brand" href="#"><h3 class="h3">KAIRASCODE SHOPPING CART </h3></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                    
+                        <li>
+                            <a class="nav-link "  href="#"><i id="mycart" class="fa fa-shopping-cart" 
+                            aria-hidden="true">My Vehicles <span class="totals">0</span>
+                            <div class="cart"><table class="cartTable"><tr colspan='3'>Total Cost:Kshs<span class="tts"></span></tr></table></div>  
+                        </i></a>
+                        </li>
+                   
+                        </ul>
+                    </div>
+                       
+                </nav>
+         
+         <div class="row">
+            
+               <div class="price">
+                    <img class="img" src="images/img-1.jpg">
+                    <h2><a href="" class="desc">Ford-Ranger</a></h2>
+                       <h3><span class="amount">Kshs 20,000,000</span></h3>
+                        <button btn btn-success class="btn btn-success" id="add-to-cart" >Add To Cart</button>   
+                </div>
+                <div class="price">
+                    <img class="img" src="images/img-3.jpg">
+                    <h2><a href="" class="desc">Mercedes-Convertible</a></h2>
+                     <h3><span class="amount">Kshs 8,000,000</span></h3>
+                    <button btn btn-success class="btn btn-success" id="add-to-cart" >Add To Cart</button>
+                </div>
+                <div class="price">
+                        <img class="img" src="images/img-5.jpg">
+                        <h2><a href="" class="desc">Nissan Moderica</a></h2>
+                        <h3><span class="amount">Kshs 1,400,000</span></h3>
+                        <button btn btn-success class="btn btn-success" id="add-to-cart" >Add To Cart</button>
+                        
+                </div>
+                <div class="price">
+                    <img class="img" src="images/img-7.jpg">
+                    <h2><a href="" class="desc">LandCruiser-V8 2017</a></h2>
+                    <h3><span class="amount">Kshs 14,000,000</span></h3>
+                    <button btn btn-success class="btn btn-success" id="add-to-cart" >Add To Cart2</button>
+                    
+                </div>
+                <div class="price">
+                    <img class="img" src="images/img-2.jpg">
+                    <h2><a href="" class="desc">LandCruiser-V8 2017</a></h2>
+                    <h3><span class="amount">Kshs 14,000,000</span></h3>
+                    <button btn btn-success class="btn btn-success" id="add-to-cart" >Add To Cart</button>
+                    
+                </div>
+            </div>
+        </div>
+          <script src="script.js"></script>
+    </body>
+</html>
