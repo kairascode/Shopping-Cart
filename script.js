@@ -74,7 +74,7 @@ function showCart(product,cost,totals,items){
         
 }
 
-//SHOW CART WHEN CART ONE HOVERS OVER CART
+//SHOW CART WHEN ONE HOVERS OVER CART
     var mycart=document.querySelector('#mycart')
     mycart.addEventListener('mouseover',function(e){ 
         document.querySelector('.cart').style.display='flex';    
